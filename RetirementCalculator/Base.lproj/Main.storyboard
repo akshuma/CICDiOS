@@ -53,19 +53,28 @@
                                     <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EJ7-8d-ZeI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNO-nq-Rui">
+                                <rect key="frame" x="35" y="358" width="344" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Cxn-7D-Tgj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4Pz-pV-qLy"/>
+                            <constraint firstItem="gNO-nq-Rui" firstAttribute="top" secondItem="aNm-Mn-jNI" secondAttribute="bottom" constant="35" id="5GU-eb-AXL"/>
                             <constraint firstItem="PAA-Ma-gYa" firstAttribute="top" secondItem="2Q2-ka-tUS" secondAttribute="bottom" constant="8" id="9Jj-Lf-1JZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aNm-Mn-jNI" secondAttribute="trailing" constant="30" id="A8F-nS-NZ4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JP0-vO-dBJ" secondAttribute="trailing" constant="20" id="Cit-7R-m98"/>
                             <constraint firstItem="PAA-Ma-gYa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kl1-EY-fei"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Q2-ka-tUS" secondAttribute="trailing" constant="20" id="LC3-be-bHb"/>
+                            <constraint firstItem="gNO-nq-Rui" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="LP3-Rv-Hh1"/>
                             <constraint firstItem="JP0-vO-dBJ" firstAttribute="top" secondItem="Cxn-7D-Tgj" secondAttribute="bottom" constant="8" id="Qjb-RC-J5B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fbb-hx-BCI" secondAttribute="trailing" constant="20" id="Qjh-C5-Tzt"/>
                             <constraint firstItem="aNm-Mn-jNI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="YNw-Nf-hq0"/>
                             <constraint firstItem="Cxn-7D-Tgj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="dYw-0v-1Mv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gNO-nq-Rui" secondAttribute="trailing" constant="35" id="hvs-3z-IyB"/>
                             <constraint firstItem="fbb-hx-BCI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kXH-zg-DXy"/>
                             <constraint firstItem="aNm-Mn-jNI" firstAttribute="top" secondItem="PAA-Ma-gYa" secondAttribute="bottom" constant="20" id="lQM-QE-i3u"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cxn-7D-Tgj" secondAttribute="trailing" constant="20" id="o58-Ke-Lxc"/>
@@ -81,6 +90,7 @@
                         <outlet property="ageTextField" destination="JP0-vO-dBJ" id="hkh-Er-X5c"/>
                         <outlet property="interestRateTextField" destination="PAA-Ma-gYa" id="PkS-sK-y7I"/>
                         <outlet property="monthlyInvestmentTextField" destination="Cxn-7D-Tgj" id="oUb-4b-7D9"/>
+                        <outlet property="resultLabel" destination="gNO-nq-Rui" id="KsN-bf-17a"/>
                         <outlet property="retirmentAgeTextField" destination="fbb-hx-BCI" id="Zin-9e-uy0"/>
                         <outlet property="savingTextField" destination="2Q2-ka-tUS" id="OXC-Sb-f2N"/>
                     </connections>
